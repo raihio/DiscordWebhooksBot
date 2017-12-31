@@ -22,6 +22,8 @@ class Webhook {
         });
     }
 
+
+    // POST: Slack style message
     sendMessage(title, msg) {
         try {
             var d = {
