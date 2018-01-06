@@ -49,6 +49,8 @@ class Webhook {
             console.log("Error: " + err.stack)
         }
     };
+
+    // TODO: Custom Slack style msg
 }
 
 module.exports = Webhook;
