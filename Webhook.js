@@ -6,7 +6,6 @@ class Webhook {
 
         // done with a request to "test" whether a valid webhook before continuing
         request(this.url, function (error, response, body) {
-            console.log(body);
 
             if (error) console.log("Could not get webhook info: " + error);
             try {

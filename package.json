@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/raihio/DiscordWebhooksBot#readme",
   "dependencies": {
+    "moment-timezone": "^0.5.14",
     "request": "^2.83.0",
     "test": "^0.6.0"
   }
